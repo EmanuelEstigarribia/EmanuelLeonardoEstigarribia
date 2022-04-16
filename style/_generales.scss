@@ -641,17 +641,6 @@ form{
     }
 
 }
-.noticias{
-    .contenido{
-        h1{
-            text-align: center;
-            font-size: 40px;
-            color: $black;
-            margin-top: 100px;
-            font-weight: 100;
-        }
-    }
-}
 .mb-3{
     padding: 1.2rem 1.4rem;
         font-size: 1.6rem;
@@ -666,6 +655,18 @@ form{
             border-color: black;
         }
 }
+.noticias{
+    .contenido{
+        h1{
+            text-align: center;
+            font-size: 40px;
+            color: $black;
+            margin-top: 100px;
+            font-weight: 100;
+        }
+    }
+}
+
 
 .contenedornoticias{
         width: 100%;
