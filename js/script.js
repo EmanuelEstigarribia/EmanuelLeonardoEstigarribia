@@ -1,13 +1,3 @@
-let searchBtn = document.querySelector('#search-btn');
-let searchForm = document.querySelector('.header .search-form');
-
-searchBtn.onclick = () =>{
-   searchBtn.classList.toggle('fa-times');
-   searchForm.classList.toggle('active');
-   menuBtn.classList.remove('fa-times');
-   navbar.classList.remove('active');
-}
-
 let menuBtn = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 
@@ -24,4 +14,18 @@ window.onscroll = () =>{
    menuBtn.classList.remove('fa-times');
    navbar.classList.remove('active');
 }
+
+
+
+//bucle while
+let ingreso = prompt("Ingrese una Hamburguesa o escriba la palabra 'SALIR'");
+
+while(ingreso != "SALIR"){
+   //operaciones
+   console.log("El producto ingresado" + ingreso);
+   ingreso = prompt("ingrese otra hamburguesa");
+
+   repetir=false;
+}
+
 
